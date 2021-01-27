@@ -8,7 +8,7 @@ function ListItem(props) {
     setedit(evt.target.value);
   };
   const saveedit = () => {
-    props.onEdit(onEdit, props.idx);
+    props.onEdit(editedI, props.idx);
 
     seteditm(false);
   };
